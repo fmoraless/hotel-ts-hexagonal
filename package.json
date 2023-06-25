@@ -7,7 +7,7 @@
     "dev": "nodemon src/index.ts",
     "format": "",
     "lint": "eslint . --ext .ts",
-    "lint:fix": ""
+    "lint:fix": "npx eslint --fix ."
   },
   "author": "Francisco Morales S.",
   "license": "ISC",
