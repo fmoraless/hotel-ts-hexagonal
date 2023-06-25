@@ -4,7 +4,7 @@
   "description": "Sistema reservas Hotel",
   "main": "index.ts",
   "scripts": {
-    "dev": "ts-node src/index.ts",
+    "dev": "nodemon src/index.ts",
     "format": "",
     "lint": "",
     "lint:fix": ""
