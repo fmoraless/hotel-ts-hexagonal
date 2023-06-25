@@ -1,0 +1,14 @@
+root = true  # directorio donde se va a  resolver el edito config
+
+[*]
+indent_style = tab
+tab_size = 4
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.py]
+charset = utf-8
+
+[*.md]
+indent_size = 4
