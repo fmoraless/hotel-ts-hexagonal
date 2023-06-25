@@ -1,0 +1,17 @@
+{
+    "root": true, /* definir que trabaje en la carpeta root donde se encuentra eslint */
+    "plugins": ["@typescript-eslint"], /*  define que todos los plugins y parser son heredados de typescript */
+    "parser": "@typescript-eslint/parser", /* llamar otras reglas especificas para */
+    "extends": [ /* plugin de soporte para ts para eslint */
+        "eslint:recommended", /* permite heredar las reglas de eslint */
+        "plugin:@typescript-eslint/recommended", /* permite heredar las reglas de typescript  */
+        "plugin:@typescript-eslint/eslint-recommended" /* permite heredar las reglas de typescript  */
+    ],
+    "rules": {
+        "quotes": ["error", "single"], /* permite definir que las comillas sean dobles */
+        "@typescript-eslint/no-explicit-any": ["warn"],
+        "curly": "error",
+        "no-empty": "error"
+    }
+    
+}
