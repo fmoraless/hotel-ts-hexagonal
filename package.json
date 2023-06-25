@@ -5,7 +5,7 @@
   "main": "index.ts",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "format": "",
+    "format": "prettier --write .",
     "lint": "eslint . --ext .ts",
     "lint:fix": "npx eslint --fix ."
   },
