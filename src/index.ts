@@ -1,6 +1,6 @@
 interface Teacher {
-    name: string;
+  name: string
 }
 
-const teacher: Teacher = { name: 'Francisco' };
-console.log(teacher);
+const teacher: Teacher = { name: 'Francisco' }
+console.log(teacher)
