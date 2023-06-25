@@ -1,0 +1,11 @@
+{
+  "name": "hotel-ts-hexagonal",
+  "version": "1.0.0",
+  "description": "Sistema reservas Hotel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Morales S.",
+  "license": "ISC"
+}
