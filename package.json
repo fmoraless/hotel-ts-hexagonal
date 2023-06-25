@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.ts",
     "format": "",
-    "lint": "",
+    "lint": "eslint . --ext .ts",
     "lint:fix": ""
   },
   "author": "Francisco Morales S.",

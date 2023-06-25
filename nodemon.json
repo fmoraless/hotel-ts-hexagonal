@@ -5,7 +5,9 @@
   "execMap": {
     "ts": "ts-node"
   },
-  "events": {},
+  "events": {
+    "restart": "yarn run lint"
+  },
   "env": {
     "NODE_ENV": "development"
   },
