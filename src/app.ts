@@ -13,7 +13,7 @@ class App {
 	}
 
 	mountHealthCheck() {
-		this.expressApp.use('/user', routerHealth)
+		this.expressApp.use('/', routerHealth)
 	}
 
 	mountMiddlewares() {
