@@ -24,7 +24,6 @@ class App {
 	mountErrors() {
 		this.expressApp.use(HandlerErrors.notFound)
 	}
-
 }
 
 export default new App().expressApp

@@ -1,5 +1,5 @@
 interface Teacher {
-  name: string
+	name: string
 }
 
 const teacher: Teacher = { name: 'Francisco' }

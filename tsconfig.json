@@ -1,18 +1,18 @@
 {
-  "compilerOptions": {
-    "module": "CommonJS" /* permite que cuando se procese el codigo ts. luego de compilacion/transpilacion se pase a JS nativo */,
-    "esModuleInterop": true /* tener compatibilidad con otras extensiones de otros lenguajes y modulo ... */,
-    "resolveJsonModule": true /* permite soporte para importar archivos json */,
-    "moduleResolution": "node" /* permite dar soporte absoluto a typescript  */,
-    "target": "ES2020" /* permite especificar la estandarizacio de Ecma script del proyecto */,
-    "noImplicitAny": true /* permite definir que no se permita el uso de any en el proyecto */,
-    "sourceMap": true /* permite crear un archivo raiz identificador  */,
-    "experimentalDecorators": true /* permite el uso de decoradores en el proyecto */,
-    "emitDecoratorMetadata": true /* permite el uso de decoradores en el proyecto */,
-    "strict": true /* permite identificar definiciones de errores para el codigo */,
-    "baseUrl": "./" /* permite definir la ruta base del proyecto */,
-    "outDir": "./build" /* el directorio con el codigo js para produccion */
-  },
-  "exclude": ["node_modules"] /* permite excluir archivos o carpetas del proyecto */,
-  "include": ["src/**/*.ts"] /* permite definir donde se va a econtrar mi codigo a compilar/transpilar */
+	"compilerOptions": {
+		"module": "CommonJS" /* permite que cuando se procese el codigo ts. luego de compilacion/transpilacion se pase a JS nativo */,
+		"esModuleInterop": true /* tener compatibilidad con otras extensiones de otros lenguajes y modulo ... */,
+		"resolveJsonModule": true /* permite soporte para importar archivos json */,
+		"moduleResolution": "node" /* permite dar soporte absoluto a typescript  */,
+		"target": "ES2020" /* permite especificar la estandarizacio de Ecma script del proyecto */,
+		"noImplicitAny": true /* permite definir que no se permita el uso de any en el proyecto */,
+		"sourceMap": true /* permite crear un archivo raiz identificador  */,
+		"experimentalDecorators": true /* permite el uso de decoradores en el proyecto */,
+		"emitDecoratorMetadata": true /* permite el uso de decoradores en el proyecto */,
+		"strict": true /* permite identificar definiciones de errores para el codigo */,
+		"baseUrl": "./" /* permite definir la ruta base del proyecto */,
+		"outDir": "./build" /* el directorio con el codigo js para produccion */
+	},
+	"exclude": ["node_modules"] /* permite excluir archivos o carpetas del proyecto */,
+	"include": ["src/**/*.ts"] /* permite definir donde se va a econtrar mi codigo a compilar/transpilar */
 }

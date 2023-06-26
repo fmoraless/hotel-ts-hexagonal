@@ -1,27 +1,27 @@
 {
-  "name": "hotel-ts-hexagonal",
-  "version": "1.0.0",
-  "description": "Sistema reservas Hotel",
-  "main": "index.ts",
-  "scripts": {
-    "dev": "nodemon src/index.ts",
-    "format": "prettier --write .",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "npx eslint --fix ."
-  },
-  "author": "Francisco Morales S.",
-  "license": "ISC",
-  "dependencies": {
-    "express": "4.18.2"
-  },
-  "devDependencies": {
-    "@types/express": "4.17.17",
-    "@typescript-eslint/eslint-plugin": "5.60.0",
-    "@typescript-eslint/parser": "5.60.0",
-    "eslint": "8.43.0",
-    "nodemon": "2.0.22",
-    "prettier": "2.8.8",
-    "ts-node": "10.9.1",
-    "typescript": "5.0.4"
-  }
+	"name": "hotel-ts-hexagonal",
+	"version": "1.0.0",
+	"description": "Sistema reservas Hotel",
+	"main": "index.ts",
+	"scripts": {
+		"dev": "nodemon src/index.ts",
+		"format": "prettier --write .",
+		"lint": "eslint . --ext .ts",
+		"lint:fix": "npx eslint --fix ."
+	},
+	"author": "Francisco Morales S.",
+	"license": "ISC",
+	"dependencies": {
+		"express": "4.18.2"
+	},
+	"devDependencies": {
+		"@types/express": "4.17.17",
+		"@typescript-eslint/eslint-plugin": "5.60.0",
+		"@typescript-eslint/parser": "5.60.0",
+		"eslint": "8.43.0",
+		"nodemon": "2.0.22",
+		"prettier": "2.8.8",
+		"ts-node": "10.9.1",
+		"typescript": "5.0.4"
+	}
 }
