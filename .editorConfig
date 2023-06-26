@@ -2,7 +2,7 @@ root = true  # directorio donde se va a  resolver el edito config
 
 [*]
 indent_style = tab
-tab_size = 4
+tab_size = 2
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
