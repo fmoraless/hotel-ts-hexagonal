@@ -9,7 +9,7 @@
 		"sourceMap": true /* permite crear un archivo raiz identificador  */,
 		"experimentalDecorators": true /* permite el uso de decoradores en el proyecto */,
 		"emitDecoratorMetadata": true /* permite el uso de decoradores en el proyecto */,
-		"strict": true /* permite identificar definiciones de errores para el codigo */,
+		"strict": false /* permite identificar definiciones de errores para el codigo */,
 		"baseUrl": "./" /* permite definir la ruta base del proyecto */,
 		"outDir": "./build" /* el directorio con el codigo js para produccion */
 	},
