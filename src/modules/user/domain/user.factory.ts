@@ -1,17 +1,16 @@
-import { v4 as uuidv4 } from "uuid";
-import User, { UserProperties } from "./user";
-import { UserPasswordService } from "./services/user-password.service";
-import { EmailVO } from "./value-objects/email.VO";
+import { v4 as uuidv4 } from 'uuid'
+import User, { UserProperties } from './user'
+import { UserPasswordService } from './services/user-password.service'
+import { EmailVO } from './value-objects/email.VO'
 
 export default class UserFactory {
-	async create(name: string, lastname:string, email:EmailVO, password:string) {
-
+	async create(name: string, lastname: string, email: EmailVO, password: string) {
 		const passwordHash = await UserPasswordService.hash(password)
 
 		const userProperties: UserProperties = {
 			name,
 			lastname,
-			email: EmailVO,
+			email,
 			password: passwordHash,
 			guid: uuidv4(),
 		}

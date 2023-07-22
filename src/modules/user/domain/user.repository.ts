@@ -1,6 +1,6 @@
 import User from "./user";
 
-export interface UserRepository<T> {
+export interface UserRepository {
 	list(): Promise<User[]>
 	listOne(guid: string): Promise<User>
 	insert(user:User): Promise<User>
