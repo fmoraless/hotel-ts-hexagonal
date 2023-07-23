@@ -10,7 +10,7 @@ export class EmailVO extends ValueObject<EmailProps> {
 	}
 
 	static create(email: string) {
-		if (!email.match(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/gi)) {
+		if (!email.match(/^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/gi)) {
 			throw new Error('Invalid email')
 		}
 
