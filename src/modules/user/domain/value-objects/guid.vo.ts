@@ -1,5 +1,5 @@
-import 	{ validate as uuidValidate } from "uuid"
-import { ValueObject } from "./vo.class";
+import { validate as uuidValidate } from 'uuid'
+import { ValueObject } from './vo.class'
 
 interface GuidProps {
 	value: string
@@ -11,8 +11,8 @@ export class GuidVO extends ValueObject<GuidProps> {
 	}
 
 	static create(guid: string) {
-		if(!uuidValidate(guid)) {
-			throw new Error("Invalid guid")
+		if (!uuidValidate(guid)) {
+			throw new Error('Invalid guid')
 		}
 
 		return new GuidVO({ value: guid })
