@@ -11,6 +11,8 @@
 		"quotes": ["error", "single"] /* permite definir que las comillas sean dobles */,
 		"@typescript-eslint/no-explicit-any": ["warn"],
 		"curly": "error",
-		"no-empty": "error"
+		"no-empty": "error",
+		"@typescript-eslint/no-var-requires": "off",
+		"no-undef": "off"
 	}
 }
