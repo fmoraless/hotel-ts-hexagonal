@@ -11,7 +11,11 @@ import { UserUpdateMapping } from './dto/user-update.dto'
 import { UserDeleteMapping } from './dto/user-delete.dto'
 export default class {
 	constructor(private application: UserApplication) {
-		//
+		this.insert = this.insert.bind(this)
+		this.list = this.list.bind(this)
+		this.listOne = this.listOne.bind(this)
+		this.update = this.update.bind(this)
+		this.delete = this.delete.bind(this)
 	}
 
 	async insert(req: Request, res: Response, next: NextFunction) {
