@@ -11,8 +11,11 @@
 		"emitDecoratorMetadata": true /* permite el uso de decoradores en el proyecto */,
 		"strict": false /* permite identificar definiciones de errores para el codigo */,
 		"baseUrl": "./" /* permite definir la ruta base del proyecto */,
-		"outDir": "./build" /* el directorio con el codigo js para produccion */
+		"outDir": "./cache" /* el directorio con el codigo js para produccion */
 	},
 	"exclude": ["node_modules"] /* permite excluir archivos o carpetas del proyecto */,
-	"include": ["src/**/*.ts"] /* permite definir donde se va a econtrar mi codigo a compilar/transpilar */
+	"include": [
+		"src/**/*.ts",
+		"test/**/*.ts"
+	] /* permite definir donde se va a econtrar mi codigo a compilar/transpilar */
 }
