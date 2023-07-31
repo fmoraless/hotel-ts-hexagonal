@@ -9,7 +9,8 @@
 		"lint": "eslint . --ext .ts",
 		"lint:fix": "npx eslint --fix .",
 		"clean": "rimraf cache dist",
-		"build": "yarn run clean && tsc && gulp minify"
+		"build": "yarn run clean && tsc && gulp minify",
+		"prod": "node dist/index.js"
 	},
 	"author": "Francisco Morales S.",
 	"license": "ISC",
