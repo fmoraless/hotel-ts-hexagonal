@@ -2,6 +2,7 @@ import express, { Application } from 'express'
 import routerHealth from './helpers/health'
 import HandlerErrors from './helpers/errors'
 import routerUser from './modules/user/interfaces/http/user.routes'
+import routerReservation from './modules/reservation/interfaces/http/reservation.routes'
 import hpp from 'hpp'
 import helmet from 'helmet'
 import cors from 'cors'
@@ -43,6 +44,7 @@ class App {
 
 	mountRoutes(): void {
 		this.expressApp.use('/user', routerUser)
+		this.expressApp.use('/reservation', routerReservation)
 	}
 	mountErrors() {
 		this.expressApp.use(HandlerErrors.notFound)
