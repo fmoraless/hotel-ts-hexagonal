@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryColumn } from 'typeorm'
+import { Column, Entity, PrimaryColumn, OneToMany } from 'typeorm'
+import { ReservationEntity } from '../../reservation/infraestructure/reservation.entity'
 
 @Entity()
 export class UserEntity {
@@ -19,4 +20,7 @@ export class UserEntity {
 
 	@Column({ type: 'boolean', default: true })
 	active: boolean
+
+	@OneToMany(() => ReservationEntity, (reservation) => reservation.user)
+	reservations: ReservationEntity[]
 }
