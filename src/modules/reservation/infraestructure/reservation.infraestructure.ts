@@ -2,7 +2,7 @@ import Reservation, { ReservationUpdate } from '../domain/reservation'
 import { ReservationRepository } from '../domain/reservation.repository'
 import { ReservationEntity } from './reservation.entity'
 import DatabaseBootstrap from '../../../bootstrap/database.bootstrap'
-//import { EmailVO } from '../domain/value-objects/email.VO'
+
 import {
 	ReservationNumberRequireException,
 	ReservationNotFoundException,
