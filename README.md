@@ -43,6 +43,11 @@ Iniciar contenedor de base de datos
   docker compose up -d
 ```
 
+Crear contenedor de la api
+```bash
+  docker build -t node-api:1.0.0 .
+```
+
 Crear red
 
 ```bash
